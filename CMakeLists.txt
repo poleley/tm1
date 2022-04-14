@@ -3,4 +3,4 @@ project(tm1)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(tm1 main.cpp table_const.h table_var.h lexeme.h)
+add_executable(tm1 main.cpp table_const.h table_var.h lexeme.h translator.h)

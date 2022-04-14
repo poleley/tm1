@@ -26,7 +26,7 @@ public:
         place(int _i, int _j) : i(_i), j(_j) {}
     };
 
-    // процедура хэширования
+    // функция, возвращающая хэш элемента
     int get_hash(string name) {
         int hash = 0;
         for (char i: name) {
@@ -78,6 +78,7 @@ public:
         table[_place.i][_place.j].init = _init;
     }
 
+    // получение лексемы по позиции
     lexeme get_lexeme(place _place) {
         return table[_place.i][_place.j];
     }

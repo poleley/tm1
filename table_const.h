@@ -13,7 +13,7 @@ private:
     set<string> table;
 public:
     // конструктор
-    table_const () = default;
+    table_const() = default;
 
     // деструктор
     ~table_const() {
